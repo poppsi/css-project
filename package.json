@@ -1,0 +1,22 @@
+{
+  "name": "natours-starter",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/poppsi/starter.git"
+  },
+  "author": "Filip",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/poppsi/starter/issues"
+  },
+  "homepage": "https://github.com/poppsi/starter#readme",
+  "devDependencies": {
+    "sass": "^1.52.1"
+  }
+}
