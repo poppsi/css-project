@@ -16,10 +16,11 @@
   }
 
   .col-1-of-3 {
-    width: calc((100% - #{$gutter-horizontal}) / 3);
+    width: 30%;
     float: left;
 
     &:not(:last-child) {
+      margin-right: $gutter-horizontal;
       margin-bottom: 2rem;
     }  
   }
