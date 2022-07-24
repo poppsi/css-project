@@ -1,3 +1,17 @@
+/*
+0 - 600px: phone
+600 - 900px: tablet portrait
+900 - 1200px: tablet landscape
+1200 - 1800px: normal style applies, desktop first approach
+1800px + : big desktop
+*/
+/*
+Breakpoints arguments:
+- phone
+- tab-port
+- tab-land
+- big desktop
+*/
 @-webkit-keyframes move_in_right {
   0% {
     opacity: 0;
@@ -14,7 +28,6 @@
             transform: translateX(0);
   }
 }
-
 @keyframes move_in_right {
   0% {
     opacity: 0;
@@ -102,7 +115,25 @@
 }
 
 html {
-  font-size: 10px;
+  font-size: 62.5%;
+}
+
+@media (max-width: 75em) {
+  html {
+    font-size: 56.5%;
+  }
+}
+
+@media (max-width: 56.25em) {
+  html {
+    font-size: 50%;
+  }
+}
+
+@media (min-width: 112.5em) {
+  html {
+    font-size: 75%;
+  }
 }
 
 body {
